@@ -1,0 +1,112 @@
+        /*cor do fundo*/
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(./IMG/wallpaperpolvo.jpg);
+            background-size: 100%;  
+
+        }
+        
+        /*ajustes da BOX do formulário*/
+        
+        .box{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 15px;
+            width: 30%;
+        }
+        
+        /*efeito da linha de borda do formulário*/
+        
+        fieldset{
+            border: 3px solid rgb(229, 255, 116);
+            border-radius: 10px;
+        }
+        
+        /*ajustes na legenda do formulário*/
+        
+        legend{
+            border: 1px solid rgb(85, 0, 255);
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(85, 0, 255);
+            border-radius: 8px;
+            
+        }
+        
+        /*efeito e posição das box*/
+        
+        .inputBox{
+            position: relative;
+        }
+        .inputUser{
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 10px;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+        
+        /*efeitos das LABELs pra o nome subir, e pole valid não desce a legenda*/
+        
+        .labelInput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .inputUser:focus ~ .labelInput,
+        .inputUser:valid ~ .labelInput{
+            top: -20px;
+            font-size: 12px;
+            color: dodgerblue;
+        }
+        
+        /*ajustes data nascimento*/
+        
+        #data_nascimento{
+            border: none;
+            padding: 8px;
+            border-radius: 10px;
+            outline: none;
+            font-size: 15px;
+        }
+        
+        /*ajustes no botão enviar*/
+        
+        .submit{
+            background-color: rgb(233, 255, 70);
+            width: 100%;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+
+            
+        }
+
+        .submit:hover {
+            background-color:rgb(230, 255, 40);
+        }
+
+        .çuino{
+            align-items: center;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        /*efeito ao passar o mouse por cima, escurecer*/
+        

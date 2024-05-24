@@ -1,0 +1,146 @@
+body{
+    background-color:#272c3f;
+    background-image: radial-gradient(circle, rgb(72, 70, 125), #272c3f);
+    margin: 0px;
+}
+
+input::placeholder{
+    color: rgb(106, 106, 106);
+    filter: contrast(300%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#faixa {
+    height: 150px;
+    background-color: #2e2e2e;
+    background: linear-gradient(to bottom,#2e2e2e , #333333);
+    display: flex;
+    color: white;
+}
+
+#logo{
+    position: absolute;
+    left: 4%;
+}
+
+#nome{
+    position: absolute;
+    left: 12.5%;
+    top: 6%;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.searchbox{
+    width: 850px;
+    height: 30px;
+    background-color: rgb(195, 195, 195);
+    border-radius: 15px;
+    border: 1px;
+}
+
+.boxsear{
+    position: absolute;
+    left: 22%;
+    top: 10%;
+}
+
+.curtidos{
+    position: absolute;
+    right: 16%;
+    top: 8%;
+}
+
+.carrinho{
+    position: absolute;
+    right: 10%;
+    top: 8%;
+}
+
+.perfil{
+    position: absolute;
+    right: 4%;
+    top: 8%;
+}
+
+.perfiltxt{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: absolute;
+    right: 4%;
+    top: 12.5%;
+}
+
+#midbox{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background: linear-gradient(to top, rgb(64, 64, 64, 0.2), rgb(181, 181, 181, 0.2));
+    width: 70%;
+    height: 110%;
+}
+
+.midtxt{
+    color: white;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5%;
+    padding-top: 7%;
+}
+
+.jogo1{
+    position: absolute;
+    left: 5%;
+    background: linear-gradient(to top, rgb(71, 71, 194, 0.8), rgb(30, 30, 85, 0.8));
+    border: 1px;
+    width: 90%;
+    height: 25%;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.jogo1:hover{
+    -webkit-transform: scale(1.03);
+}
+
+.imgjogo{
+    padding: 3%;
+    width: 240px;
+}
+
+.txtjogo{
+    position: absolute;
+    left: 32%;
+    right: 20%;
+    top: 20%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 19px;
+}
+p{
+    font-size: 15px;
+}
+
+.preço{
+    position: absolute;
+    right: 7%;
+    top: 23%;
+    font-size: 17px;
+    color: lawngreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+del{
+    color: rgb(145, 145, 145);
+}
+
+ins{
+    font-size: 20px;
+}
+
+
+
+
