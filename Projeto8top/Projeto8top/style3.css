@@ -1,0 +1,150 @@
+body{
+    background-color:#272c3f;
+    background-image: radial-gradient(circle, rgb(72, 70, 125), #272c3f);
+    margin: 0px;
+}
+
+input::placeholder{
+    color: rgb(106, 106, 106);
+    filter: contrast(300%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#faixa {
+    height: 150px;
+    background-color: #2e2e2e;
+    background: linear-gradient(to bottom,#2e2e2e , #333333);
+    display: flex;
+    color: white;
+}
+
+#logo{
+    position: absolute;
+    left: 4%;
+}
+
+#nome{
+    position: absolute;
+    left: 12.5%;
+    top: 6%;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.searchbox{
+    width: 850px;
+    height: 30px;
+    background-color: rgb(195, 195, 195);
+    border-radius: 15px;
+    border: 1px;
+}
+
+.boxsear{
+    position: absolute;
+    left: 22%;
+    top: 10%;
+}
+
+.curtidos{
+    position: absolute;
+    right: 16%;
+    top: 8%;
+}
+
+.carrinho{
+    position: absolute;
+    right: 10%;
+    top: 8%;
+}
+
+.perfil{
+    position: absolute;
+    right: 4%;
+    top: 8%;
+}
+
+.perfiltxt{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: absolute;
+    right: 4%;
+    top: 12.5%;
+}
+
+#midbox{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background: linear-gradient(to top, rgb(64, 64, 64, 0.2), rgb(181, 181, 181, 0.2));
+    width: 80%;
+    height: 85%;
+}
+
+.boximgjogo{
+    position: absolute;
+    left: 3.5%;
+    top: 6%;
+    background-color: rgb(43, 43, 43, 0.6);
+    width: 93%;
+    height: 550px;
+}
+
+.imgjogo2{
+    padding-left: 2%;
+    padding-top: 2%;
+    width: 57%;
+    height: 90%;
+}
+
+.imgjooj{
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    width: 37%;
+    height: 35%;
+}
+
+.txtjogo2{
+    position: absolute;
+    left: 61%;
+    top: 42%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.butaodiv{
+    position: absolute;
+    left: 66%;
+    bottom: 5%;
+}
+
+.myButton {
+	background-color:#48c76a;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:20px 80px;
+}
+.myButton:hover {
+	background-color:#2aa157;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+p{
+    padding-left: 7%;
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+}
+
+ins{
+    color: rgb(34, 144, 232);
+}
